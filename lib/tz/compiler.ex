@@ -1,10 +1,6 @@
 defmodule Tz.Compiler do
   @moduledoc false
 
-  require Logger
-  require Tz.IanaFileParser
-  require Tz.PeriodsBuilder
-
   alias Tz.IanaDataDir
   alias Tz.IanaFileParser
   alias Tz.PeriodsBuilder
